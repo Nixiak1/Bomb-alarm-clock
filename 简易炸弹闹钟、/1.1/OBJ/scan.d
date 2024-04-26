@@ -1,0 +1,13 @@
+..\obj\scan.o: ..\HARDWARE\scan\scan.c
+..\obj\scan.o: ..\HARDWARE\scan\scan.h
+..\obj\scan.o: ..\SYSTEM\sys\sys.h
+..\obj\scan.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\scan.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\scan.o: D:\keil_5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\scan.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\scan.o: ..\SYSTEM\delay\delay.h
+..\obj\scan.o: ..\HARDWARE\KEY\key.h
+..\obj\scan.o: ..\HARDWARE\buzzer\buzzer.h
+..\obj\scan.o: ..\HARDWARE\LED\led.h
+..\obj\scan.o: ..\SYSTEM\usart\usart.h
+..\obj\scan.o: D:\keil_5\ARM\ARMCC\Bin\..\include\stdio.h

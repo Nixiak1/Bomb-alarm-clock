@@ -1,0 +1,10 @@
+..\obj\buzzer.o: ..\HARDWARE\buzzer\buzzer.c
+..\obj\buzzer.o: ..\HARDWARE\buzzer\buzzer.h
+..\obj\buzzer.o: ..\SYSTEM\sys\sys.h
+..\obj\buzzer.o: ..\SYSTEM\sys\stm32f10x.h
+..\obj\buzzer.o: ..\SYSTEM\sys\core_cm3.h
+..\obj\buzzer.o: D:\keil_5\ARM\ARMCC\Bin\..\include\stdint.h
+..\obj\buzzer.o: ..\SYSTEM\sys\system_stm32f10x.h
+..\obj\buzzer.o: ..\SYSTEM\delay\delay.h
+..\obj\buzzer.o: ..\HARDWARE\scan\scan.h
+..\obj\buzzer.o: ..\HARDWARE\KEY\key.h

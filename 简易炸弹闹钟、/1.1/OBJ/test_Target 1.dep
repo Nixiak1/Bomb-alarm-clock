@@ -1,0 +1,91 @@
+Dependencies for Project 'test', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_md.s)(0x634AA70B)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 514" --pd "STM32F10X_MD SETA 1"--list ..\obj\startup_stm32f10x_md.lst --xref -o ..\obj\startup_stm32f10x_md.o --depend ..\obj\startup_stm32f10x_md.d)
+F (.\test.c)(0x635E3A69)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\test.o --depend ..\obj\test.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\keil_5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\SYSTEM\delay\delay.h)(0x555AC61E)
+I (..\HARDWARE\LED\led.h)(0x635A9340)
+I (..\HARDWARE\KEY\key.h)(0x6360FB50)
+I (..\HARDWARE\buzzer\buzzer.h)(0x6357B823)
+I (scan.h)(0x6357A6BF)
+I (..\HARDWARE\EXTI\exti.h)(0x635A8D92)
+F (..\SYSTEM\delay\delay.c)(0x555AC5E0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\delay.o --depend ..\obj\delay.d)
+I (..\SYSTEM\delay\delay.h)(0x555AC61E)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\sys\sys.c)(0x550EB960)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\sys.o --depend ..\obj\sys.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\SYSTEM\usart\usart.c)(0x5DE1F177)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\usart.o --depend ..\obj\usart.d)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (D:\keil_5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\HARDWARE\LED\led.c)(0x635E35F9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\led.o --depend ..\obj\led.d)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LED\led.h)(0x635A9340)
+F (..\HARDWARE\KEY\key.c)(0x635E7CEF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\key.o --depend ..\obj\key.d)
+I (..\HARDWARE\KEY\key.h)(0x6360FB50)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61E)
+I (..\HARDWARE\scan\scan.h)(0x635E2F6E)
+I (..\HARDWARE\buzzer\buzzer.h)(0x6357B823)
+F (..\HARDWARE\buzzer\buzzer.c)(0x63623818)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\buzzer.o --depend ..\obj\buzzer.d)
+I (..\HARDWARE\buzzer\buzzer.h)(0x6357B823)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61E)
+I (..\HARDWARE\scan\scan.h)(0x635E2F6E)
+I (..\HARDWARE\KEY\key.h)(0x6360FB50)
+F (..\HARDWARE\scan\scan.c)(0x635FC3CF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\scan.o --depend ..\obj\scan.d)
+I (..\HARDWARE\scan\scan.h)(0x635E2F6E)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\delay\delay.h)(0x555AC61E)
+I (..\HARDWARE\KEY\key.h)(0x6360FB50)
+I (..\HARDWARE\buzzer\buzzer.h)(0x6357B823)
+I (..\HARDWARE\LED\led.h)(0x635A9340)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\keil_5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\HARDWARE\EXTI\exti.c)(0x635FC3CF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\buzzer -I..\HARDWARE\scan -I..\HARDWARE\EXTI-I D:\Desk\数码管\USER\RTE-I D:\keil_5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\keil_5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DSTM32F10X_MD-o ..\obj\exti.o --depend ..\obj\exti.d)
+I (..\HARDWARE\EXTI\exti.h)(0x635A8D92)
+I (..\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (D:\keil_5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\HARDWARE\LED\led.h)(0x635A9340)
+I (..\HARDWARE\KEY\key.h)(0x6360FB50)
+I (..\SYSTEM\delay\delay.h)(0x555AC61E)
+I (..\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (D:\keil_5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\HARDWARE\scan\scan.h)(0x635E2F6E)
+F (..\README.TXT)(0x55C34386)()
